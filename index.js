@@ -112,39 +112,38 @@
 //     })
 // console.log(sum);
 
-let str1 = 'lite';
-let str2 = 'elite';
+
 
 // const Test =(str1,str2)=>{
-    let sum=0;
-    if (sum= str1===str2){
-        console.log(sum);
-    }
+//     let sum=0;
+//     if (sum= str1===str2){
+//         console.log(sum);
+//     }
+// // }
+
+
+// let number=[3,5,23,4,5,6,5];
+// sum=0;
+// number.map((value)=>{
+//     if(value>=5 && value <20){
+//         console.log(value);
+//         sum += value;
+//     }
+// });
+// console.log(sum);
+
+
+// let number=[45,678,89,9,87,67,8];
+// sum=0;
+// number.map((value)=>{
+// if(value>=10 && value<=90) {sum += value;
+// console.log(value);
 // }
 
-
-let number=[3,5,23,4,5,6,5];
-sum=0;
-number.map((value)=>{
-    if(value>=5 && value <20){
-        console.log(value);
-        sum += value;
-    }
-});
-console.log(sum);
-
-
-let number=[45,678,89,9,87,67,8];
-sum=0;
-number.map((value)=>{
-if(value>=10 && value<=90) {sum += value;
-console.log(value);
-}
-
-});
-console.log(sum);
-var a=0;
-let fruits =[ 'orange', 'apple','banana'];
+// });
+// console.log(sum);
+// var a=0;
+// let fruits =[ 'orange', 'apple','banana'];
 
 fruits.map((value)=>{
     value.split('').map((subvalue)=>{
@@ -163,6 +162,33 @@ fruits.map((value)=>{
    
 })
 console.log('a=', a);
+
+let str1 = ['lite'];
+let str2 = ['elite'];
+
+const Test=(value)=>{
+    if(str1 === 0 && str2 === 0){
+        console.log(true); 
+    }
+        else (str1!==0 && str2 !==0) 
+            console.log(false);
+        
+
+    };
+
+Test();
+var non=0;
+str1.map().split('')
+
+let number=[56,277,14,13,35,19];
+// console.log(number.filter((a)=> a>=9 && a<20));
+
+// number.fill(1,2,5);
+// console.log(number);
+
+let fruits=['orange','apple','Manga']
+// console.log(fruits.sort((a,b)=>a.localeCompare(b)));
+// console.log(fruits.join('').split(''));
 
 
 
