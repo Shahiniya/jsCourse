@@ -112,37 +112,37 @@
 //     })
 // console.log(sum);
 
-// let str1 = 'lite';
-// let str2 = 'elite';
+let str1 = 'lite';
+let str2 = 'elite';
 
-// // const Test =(str1,str2)=>{
-//     let sum=0;
-//     if (sum= str1===str2){
-//         console.log(sum);
-//     }
-// // }
-
-// 
-// let number=[3,5,23,4,5,6,5];
-// sum=0;
-// number.map((value)=>{
-//     if(value>=5 && value <20){
-//         console.log(value);
-//         sum += value;
-//     }
-// });
-// console.log(sum);
-
-
-// let number=[45,678,89,9,87,67,8];
-// sum=0;
-// number.map((value)=>{
-// if(value>=10 && value<=90) {sum += value;
-// console.log(value);
+// const Test =(str1,str2)=>{
+    let sum=0;
+    if (sum= str1===str2){
+        console.log(sum);
+    }
 // }
 
-// });
-// console.log(sum);
+
+let number=[3,5,23,4,5,6,5];
+sum=0;
+number.map((value)=>{
+    if(value>=5 && value <20){
+        console.log(value);
+        sum += value;
+    }
+});
+console.log(sum);
+
+
+let number=[45,678,89,9,87,67,8];
+sum=0;
+number.map((value)=>{
+if(value>=10 && value<=90) {sum += value;
+console.log(value);
+}
+
+});
+console.log(sum);
 var a=0;
 let fruits =[ 'orange', 'apple','banana'];
 
@@ -154,15 +154,15 @@ fruits.map((value)=>{
 })
 console.log('a=', a);
 
-// var a=0;
-// let fruits =['orange', 'banana', 'apple'];
-// fruits.map((value)=>{
-//     value.split('').map((subvalue)=>{
-//         if(subvalue === 'a') a++;
-//     });
+var a=0;
+let fruits =['orange', 'banana', 'apple'];
+fruits.map((value)=>{
+    value.split('').map((subvalue)=>{
+        if(subvalue === 'a') a++;
+    });
    
-// })
-// console.log('a=', a);
+})
+console.log('a=', a);
 
 
 
