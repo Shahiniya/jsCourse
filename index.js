@@ -1,8 +1,8 @@
-var title = "jon";
-var title1 = title + "it academy";
-var title2 = "webbrain 'IT' Academy 'IT'";
-var str = `IT ${title} IT Academy`
-// console.log(title2);
+// var title = "jon";
+// var title1 = title + "it academy";
+// var title2 = "webbrain 'IT' Academy 'IT'";
+// var str = `IT ${title} IT Academy`
+// // console.log(title2);
 // console.log(str.indexOf('IT'));
 // console.log(str.lastIndexOf('IT'));
 // console.log(str.indexOf('IT' ,5));
@@ -16,7 +16,7 @@ var str = `IT ${title} IT Academy`
 // console.log(title.length);
 // console.log(title2.replace('IT', 'Xon'));
 // console.log(title2.replace(/'IT'/gi, 'Xon'));
-fruits = 'Orange,Apple,Grap'
+// fruits = 'Orange,Apple,Grap'
 
 
 // console.log(fruits.split(','));
@@ -71,15 +71,98 @@ fruits = 'Orange,Apple,Grap'
 //     break;
 // }
 
-const step = (i,name='step' ) => {
-    console.log(name,i);
-    };
+// const step = (i,name='step' ) => {
+//     console.log(name,i);
+//     };
     
-for(let i=0; i<=10; i++){
-    // console.log(i, 'name')
-    step(i,'jon');
-}
+// for(let i=0; i<=10; i++){
+//     // console.log(i, 'name')
+//     step(i,'jon');
+// }
 
+
+
+// let ar=[4,58,1];
+// //  str='12355469877'
+// //  console.log(ar.push(89));
+// ar.push(8);
+// console.log(ar);
+
+// const list=[
+// {
+//     id :1 ,
+//     name :'Sardor' ,
+//     job: 'developer'
+// },
+// {
+//     id :2 ,
+//     name :'Sardor' ,
+//     job: 'developer'
+// },{
+//     id :3 ,
+//     name :'Sardor' ,
+//     job: 'developer'
+// },
+// ];
+
+// const list=()=>{
+//     let sum=0;
+//     list.map((value)=>{
+//        return sum=sum +value;
+//     })
+// console.log(sum);
+
+// let str1 = 'lite';
+// let str2 = 'elite';
+
+// // const Test =(str1,str2)=>{
+//     let sum=0;
+//     if (sum= str1===str2){
+//         console.log(sum);
+//     }
+// // }
+
+// 
+// let number=[3,5,23,4,5,6,5];
+// sum=0;
+// number.map((value)=>{
+//     if(value>=5 && value <20){
+//         console.log(value);
+//         sum += value;
+//     }
+// });
+// console.log(sum);
+
+
+// let number=[45,678,89,9,87,67,8];
+// sum=0;
+// number.map((value)=>{
+// if(value>=10 && value<=90) {sum += value;
+// console.log(value);
+// }
+
+// });
+// console.log(sum);
+var a=0;
+let fruits =[ 'orange', 'apple','banana'];
+
+fruits.map((value)=>{
+    value.split('').map((subvalue)=>{
+  if(subvalue ==='a') a++;
+});
+
+})
+console.log('a=', a);
+
+// var a=0;
+// let fruits =['orange', 'banana', 'apple'];
+// fruits.map((value)=>{
+//     value.split('').map((subvalue)=>{
+//         if(subvalue === 'a') a++;
+//     });
+   
+// })
+// console.log('a=', a);
 
 
 
