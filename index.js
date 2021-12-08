@@ -145,40 +145,40 @@
 // var a=0;
 // let fruits =[ 'orange', 'apple','banana'];
 
-fruits.map((value)=>{
-    value.split('').map((subvalue)=>{
-  if(subvalue ==='a') a++;
-});
+// fruits.map((value)=>{
+//     value.split('').map((subvalue)=>{
+//   if(subvalue ==='a') a++;
+// });
 
-})
-console.log('a=', a);
+// })
+// console.log('a=', a);
 
-var a=0;
-let fruits =['orange', 'banana', 'apple'];
-fruits.map((value)=>{
-    value.split('').map((subvalue)=>{
-        if(subvalue === 'a') a++;
-    });
+// var a=0;
+// let fruits =['orange', 'banana', 'apple'];
+// fruits.map((value)=>{
+//     value.split('').map((subvalue)=>{
+//         if(subvalue === 'a') a++;
+//     });
    
-})
-console.log('a=', a);
+// })
+// console.log('a=', a);
 
-let str1 = ['lite'];
-let str2 = ['elite'];
+// let str1 = ['lite'];
+// let str2 = ['elite'];
 
-const Test=(value)=>{
-    if(str1 === 0 && str2 === 0){
-        console.log(true); 
-    }
-        else (str1!==0 && str2 !==0) 
-            console.log(false);
+// const Test=(value)=>{
+//     if(str1 === 0 && str2 === 0){
+//         console.log(true); 
+//     }
+//         else (str1!==0 && str2 !==0) 
+//             console.log(false);
         
 
-    };
+//     };
 
-Test();
-var non=0;
-str1.map().split('')
+// Test();
+// var non=0;
+// str1.map().split('')
 
 let number=[56,277,14,13,35,19];
 // console.log(number.filter((a)=> a>=9 && a<20));
@@ -190,5 +190,36 @@ let fruits=['orange','apple','Manga']
 // console.log(fruits.sort((a,b)=>a.localeCompare(b)));
 // console.log(fruits.join('').split(''));
 
+
+let sums = number.reduce((total,current)=>{
+    console.log(total,current)
+return total > current ? total : current;
+},0);
+console.log(sums);
+
+
+console.log(number.every((a)=> a>10));
+
+
+console.log(Array.from("sdfgh"));
+
+console.log(Array.from([1,2,3,4], (x)=> x*2));
+
+console.log(Array.from([1,2,3,4], (x)=> 10-x));
+
+
+console.log(...fruits);
+
+for(let i=1; i<=100; i++){
+    // if( i%3 ===0){
+    //     console.log('fizz');
+    // }
+    // else if(i%5 === 0){
+    //     console.log('Buzz');
+            // }
+      if(i%3 == 0 && i%5 == 0)
+          console.log(i , 'fizzbuzz');
+           
+}
 
 
