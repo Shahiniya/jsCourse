@@ -180,46 +180,77 @@
 // var non=0;
 // str1.map().split('')
 
-let number=[56,277,14,13,35,19];
-// console.log(number.filter((a)=> a>=9 && a<20));
+// let number=[56,277,14,13,35,19];
+// // console.log(number.filter((a)=> a>=9 && a<20));
 
-// number.fill(1,2,5);
-// console.log(number);
+// // number.fill(1,2,5);
+// // console.log(number);
 
-let fruits=['orange','apple','Manga']
-// console.log(fruits.sort((a,b)=>a.localeCompare(b)));
-// console.log(fruits.join('').split(''));
-
-
-let sums = number.reduce((total,current)=>{
-    console.log(total,current)
-return total > current ? total : current;
-},0);
-console.log(sums);
+// let fruits=['orange','apple','Manga']
+// // console.log(fruits.sort((a,b)=>a.localeCompare(b)));
+// // console.log(fruits.join('').split(''));
 
 
-console.log(number.every((a)=> a>10));
+// let sums = number.reduce((total,current)=>{
+//     console.log(total,current)
+// return total > current ? total : current;
+// },0);
+// console.log(sums);
 
 
-console.log(Array.from("sdfgh"));
-
-console.log(Array.from([1,2,3,4], (x)=> x*2));
-
-console.log(Array.from([1,2,3,4], (x)=> 10-x));
+// console.log(number.every((a)=> a>10));
 
 
-console.log(...fruits);
+// console.log(Array.from("sdfgh"));
 
-for(let i=1; i<=100; i++){
-    // if( i%3 ===0){
-    //     console.log('fizz');
-    // }
-    // else if(i%5 === 0){
-    //     console.log('Buzz');
-            // }
-      if(i%3 == 0 && i%5 == 0)
-          console.log(i , 'fizzbuzz');
+// console.log(Array.from([1,2,3,4], (x)=> x*2));
+
+// console.log(Array.from([1,2,3,4], (x)=> 10-x));
+
+
+// console.log(...fruits);
+
+// for(let i=1; i<=100; i++){
+//     // if( i%3 ===0){
+//     //     console.log('fizz');
+//     // }
+//     // else if(i%5 === 0){
+//     //     console.log('Buzz');
+//             // }
+//       if(i%3 == 0 && i%5 == 0)
+//           console.log(i , 'fizzbuzz');
            
+// }
+
+
+// let fruits=['orange','apple','Manga'];
+// var a=0;
+// fruits.map((value)=>{
+//     value.split('').map((subvalue)=>{
+//     if(subvalue === 'a') a++;
+    
+//     })
+// })
+// console.log("a=" , a);
+
+
+str = " 'orangAe', 'aplla','aaa' "
+
+var f=0;
+var b=0;
+
+for(let i=0; i< str.length; i++){
+
+if ( str[i] === 'a' || str[i] ==='A') f++;
 }
+console.log(f ,b);
 
 
+
+a=0;
+
+for(let i = 0; i <str.length; i++){
+    let newStr= str.toLowerCase();
+    if(newStr[i] === 'a') a++;
+}
+console.log(a);
