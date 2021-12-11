@@ -234,23 +234,126 @@
 // console.log("a=" , a);
 
 
-str = " 'orangAe', 'aplla','aaa' "
+// str = " 'orangAe', 'aplla','aaa' "
 
-var f=0;
-var b=0;
+// var f=0;
+// var b=0;
 
-for(let i=0; i< str.length; i++){
+// for(let i=0; i< str.length; i++){
 
-if ( str[i] === 'a' || str[i] ==='A') f++;
+// if ( str[i] === 'a' || str[i] ==='A') f++;
+// }
+// console.log(f ,b);
+
+
+
+// a=0;
+
+// for(let i = 0; i <str.length; i++){
+//     let newStr= str.toLowerCase();
+//     if(newStr[i] === 'a') a++;
+// }
+// console.log(a);
+
+// str ='abba'
+
+// const check =(a,b) => {
+//  let s='';
+//  for (let i= a.length-1; i>=0; i--){
+//   s += a[i];
+
+// }
+// console.log(s===a);
+
+// }
+
+// check('abba'); 
+
+
+// ar = [3,45,56,6,7,9]
+
+// let sum=0;
+
+// ar.map((value)=>{
+//  sum += value;
+// })
+
+// console.log(sum);
+
+
+//  var ar=['wbguieb','tuywfgo','iqugvihbfwdbhwvhbv'];
+
+// a =0;
+// ar.join('').split('').map((value)=> value === 'w' && a++)
+   
+// console.log(a);
+
+// let obj ={
+//     id : 1,
+//     name: 'sardor',
+//     job:'developer',
+//     fullname: function(){
+//         return this.name + ' ' +  this.job;
+//     }
+// }
+
+// // Object.freeze(obj);
+// // obj.name = 'new name'
+
+
+// // delete obj.name
+// console.log(obj.fullname());
+
+
+let list = [
+
+{
+id: 1,
+name:'Sardor',
+surname: 'Muktorov',
+ depatment: 'back-end',         
+},
+
+{
+ id: 2,
+name:'Anvarara',
+surname: 'Muktorova',
+depatment: 'develop',         
+},
+
+{
+    id: 3,
+name:'Shahzoda',
+surname: 'Panjizoda',
+depatment: 'front-end',         
+},
+
+{
+ id: 4,
+name:'Bobir',
+surname: 'Shukurov',
+depatment: 'front-end',         
+},
+
+];
+
+
+const sortbyName = ()=>{
+    console.log(list.sort((a,b)=> a.name.localeCompare(b.name)));
 }
-console.log(f ,b);
+ sortbyName();
 
 
-
-a=0;
-
-for(let i = 0; i <str.length; i++){
-    let newStr= str.toLowerCase();
-    if(newStr[i] === 'a') a++;
+ const sortbyId = ()=>{
+    console.log(list.sort((a,b)=> b.id - a.id));
 }
-console.log(a);
+ sortbyId();
+
+
+ const deletebyName = (id)=>{
+
+    console.log(list.filter((value)=> value.id !== id ));
+}
+ deletebyName(3);
+
+
