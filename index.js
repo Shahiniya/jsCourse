@@ -338,22 +338,54 @@ depatment: 'front-end',
 ];
 
 
-const sortbyName = ()=>{
-    console.log(list.sort((a,b)=> a.name.localeCompare(b.name)));
-}
- sortbyName();
+// const sortbyName = ()=>{
+//     console.log(list.sort((a,b)=> a.name.localeCompare(b.name)));
+// }
+//  sortbyName();
 
 
- const sortbyId = ()=>{
-    console.log(list.sort((a,b)=> b.id - a.id));
-}
- sortbyId();
+//  const sortbyId = ()=>{
+//     console.log(list.sort((a,b)=> b.id - a.id));
+// }
+//  sortbyId();
 
 
- const deletebyName = (id)=>{
+//  const deletebyName = (id)=>{
 
-    console.log(list.filter((value)=> value.id !== id ));
-}
- deletebyName(3);
+//     console.log(list.filter((value)=> value.id !== id ));
+// }
+//  deletebyName(3);
+
+
+// const print  =()=> {
+ 
+//     list.map((value)=>{
+//         console.log(value);
+
+//     })
+// }
+
+// print();
+
+
+
+
+let arr = [
+    {
+        name:'asasadh',
+        status: 'asbgbBbsa'
+    },
+    {
+        name:'BBbbasasadh',
+        status: 'asbgAAAbBbsa'
+    }
+]
+ 
+
+      let sum =0;
+
+    arr.join('').split('').map(({value})=> value === 'a'&& sum++)
+
+         console.log('a=', sum);
 
 
