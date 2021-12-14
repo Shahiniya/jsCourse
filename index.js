@@ -370,7 +370,7 @@ depatment: 'front-end',
 
 
 
-let arr = [
+var arr = [
     {
         name:'asasadh',
         status: 'asbgbBbsa'
@@ -382,10 +382,23 @@ let arr = [
 ]
  
 
-      let sum =0;
+    //  
+   const sortbyl =() =>{
+       let sum=0;
+    const newarr = arr.map(value.name)
 
-    arr.join('').split('').map(({value})=> value === 'a'&& sum++)
+        if(value.name[i] == "a") {sum += value.name; sum++}
+    
+   console.log(sum);
+   }
 
-         console.log('a=', sum);
+   sortbyl(newarr);
 
+
+
+   let sum =0;
+
+   // arr.join('').split('').map(({value})=> value === 'a'&& sum++)
+
+   //      console.log('a=', sum);
 
