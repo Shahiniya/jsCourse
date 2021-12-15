@@ -370,35 +370,77 @@ depatment: 'front-end',
 
 
 
-var arr = [
-    {
-        name:'asasadh',
-        status: 'asbgbBbsa'
-    },
-    {
-        name:'BBbbasasadh',
-        status: 'asbgAAAbBbsa'
-    }
-]
+// var arr = [
+//     {
+//         name:'asasadh',
+//         status: 'asbgbBbsa'
+//     },
+//     {
+//         name:'BBbbasasadh',
+//         status: 'asbgAAAbBbsa'
+//     }
+// ]
  
 
-    //  
-   const sortbyl =() =>{
-       let sum=0;
-    const newarr = arr.map(value.name)
-
-        if(value.name[i] == "a") {sum += value.name; sum++}
+//     //  
+//    const sortbyl =() =>{
+//        let sum=0;
+//     const newarr = arr.map((value.name)=>{
+//         if(value.name == "a") {sum += value.name; sum++}
     
-   console.log(sum);
-   }
+//    console.log(sum);
+//    }
+//    )
+// }
 
-   sortbyl(newarr);
+//    sortbyl(newarr);
 
 
 
-   let sum =0;
+//    let sum =0;
 
    // arr.join('').split('').map(({value})=> value === 'a'&& sum++)
 
    //      console.log('a=', sum);
+  
+
+//    dollar
+   var f= Math.floor(Math.random() *100);
+   var g= 15000;
+   var sum = f*g;
+   console.log(`Dollar kiriting! ${sum} 1$ o'zbek so'mida 15000 so'mni tashkil etadi.`)
+    
+var c= 2021;
+var d= Math.floor(Math.random() *2000);
+var  birth= c-d;
+
+console.log(` Tug'ilgan sanangizni kiriting  ${d} Transfer ${birth}`);
+
+var firstvar = 'Shokhzoda';
+var secondvar ='Panjizoda';
+
+
+console.log(` Birinchi o'zgaruvchi ${firstvar} Ikkinchi o'zgaruvchi ${secondvar} Go`);
+console.log(`Birinchi o'zgaruvchi ${firstvar.replace('Shokhzoda' , 'Panjizoda')} Ikkinchi o'zgaruvchi ${secondvar.replace('Panjizoda', 'Shokhzoda')}`);
+
+var a= Math.floor(Math.random() *100);
+var b= Math.floor(Math.random() *100);
+var sum = (a+b)/2;
+
+console.log(`Son-1 ${a}  Son-2${b}  Go   ${a} va ${b}ning o'rtacha arifmetigi ${sum}`  );
+
+
+var vaqt= parseInt(Math.random()*100);
+var masofa= parseInt(Math.random()*1000);
+var tezlik = Math.floor(masofa / vaqt);
+
+console.log(`Vaqt(minutda) ${vaqt} masofa ${masofa} Go  Sizning masofangiz: ${masofa}km,  Vaqtingiz: ${vaqt} minut , Tezligingiz:${tezlik}m/s`)
+
+
+var yil= parseInt(Math.random()*2021);
+var asr= Math.floor((yil / 100)+1);
+
+console.log(`Yil kiriting ${yil}  Go  Siz kiritgan yil ${asr} asrga tegishli`)
+
+
 
