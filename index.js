@@ -405,42 +405,135 @@ depatment: 'front-end',
   
 
 //    dollar
-   var f= Math.floor(Math.random() *100);
-   var g= 15000;
-   var sum = f*g;
-   console.log(`Dollar kiriting! ${sum} 1$ o'zbek so'mida 15000 so'mni tashkil etadi.`)
+//    var f= Math.floor(Math.random() *100);
+//    var g= 15000;
+//    var sum = f*g;
+//    console.log(`Dollar kiriting! ${sum} 1$ o'zbek so'mida 15000 so'mni tashkil etadi.`)
     
-var c= 2021;
-var d= Math.floor(Math.random() *2000);
-var  birth= c-d;
+// var c= 2021;
+// var d= Math.floor(Math.random() *2000);
+// var  birth= c-d;
 
-console.log(` Tug'ilgan sanangizni kiriting  ${d} Transfer ${birth}`);
+// console.log(` Tug'ilgan sanangizni kiriting  ${d} Transfer ${birth}`);
 
-var firstvar = 'Shokhzoda';
-var secondvar ='Panjizoda';
-
-
-console.log(` Birinchi o'zgaruvchi ${firstvar} Ikkinchi o'zgaruvchi ${secondvar} Go`);
-console.log(`Birinchi o'zgaruvchi ${firstvar.replace('Shokhzoda' , 'Panjizoda')} Ikkinchi o'zgaruvchi ${secondvar.replace('Panjizoda', 'Shokhzoda')}`);
-
-var a= Math.floor(Math.random() *100);
-var b= Math.floor(Math.random() *100);
-var sum = (a+b)/2;
-
-console.log(`Son-1 ${a}  Son-2${b}  Go   ${a} va ${b}ning o'rtacha arifmetigi ${sum}`  );
+// var firstvar = 'Shokhzoda';
+// var secondvar ='Panjizoda';
 
 
-var vaqt= parseInt(Math.random()*100);
-var masofa= parseInt(Math.random()*1000);
-var tezlik = Math.floor(masofa / vaqt);
+// console.log(` Birinchi o'zgaruvchi ${firstvar} Ikkinchi o'zgaruvchi ${secondvar} Go`);
+// console.log(`Birinchi o'zgaruvchi ${firstvar.replace('Shokhzoda' , 'Panjizoda')} Ikkinchi o'zgaruvchi ${secondvar.replace('Panjizoda', 'Shokhzoda')}`);
 
-console.log(`Vaqt(minutda) ${vaqt} masofa ${masofa} Go  Sizning masofangiz: ${masofa}km,  Vaqtingiz: ${vaqt} minut , Tezligingiz:${tezlik}m/s`)
+// var a= Math.floor(Math.random() *100);
+// var b= Math.floor(Math.random() *100);
+// var sum = (a+b)/2;
 
-
-var yil= parseInt(Math.random()*2021);
-var asr= Math.floor((yil / 100)+1);
-
-console.log(`Yil kiriting ${yil}  Go  Siz kiritgan yil ${asr} asrga tegishli`)
+// console.log(`Son-1 ${a}  Son-2${b}  Go   ${a} va ${b}ning o'rtacha arifmetigi ${sum}`  );
 
 
+// var vaqt= parseInt(Math.random()*100);
+// var masofa= parseInt(Math.random()*1000);
+// var tezlik = Math.floor(masofa / vaqt);
+
+// console.log(`Vaqt(minutda) ${vaqt} masofa ${masofa} Go  Sizning masofangiz: ${masofa}km,  Vaqtingiz: ${vaqt} minut , Tezligingiz:${tezlik}m/s`)
+
+
+// var yil= parseInt(Math.random()*2021);
+// var asr= Math.floor((yil / 100)+1);
+
+// console.log(`Yil kiriting ${yil}  Go  Siz kiritgan yil ${asr} asrga tegishli`)
+
+
+ function getBack(){
+   var son = 32243;
+   console.log(+son.toString().split('').reverse().join(''))
+
+ }
+   getBack();
+
+
+
+   function palindrom1(p){
+     
+      var b = p.split('').reverse().join('');
+      if(p==b){
+         return true;
+      }
+      else{
+         return false;
+      }
+   
+    }
+     console.log(palindrom1('madona'));
+     console.log(palindrom1('madam'));
+
+
+
+var str = 'madam'
+
+const palindrom=(v)=>{
+  return str === v;
+}
+console.log(palindrom('madonna'));
+console.log(palindrom('madam'));
+
+
+function newget(a) {
+   console.log(a.split('').sort().join(''));
+};
+ newget('webmaster');
+
+ 
+
+function capitalLetter(nom){
+ return nom.toUpperCase();
+}
+console.log(capitalLetter('the quick brown fox'));
+
+
+// const sonTekshir=(son)=>{
+//    return son % 2;  'juft son';
+// }
+// console.log(sonTekshir(17 ,'juft son'));
+
+
+
+// var str1='6savol("hello")';
+
+// var newold= function(){
+//    console.log(typeof str1);
+// }
+// newold();
+
+
+// const newyoung=(a,b)=>{
+
+//    return a**b
+// }
+
+// console.log(newyoung(7,2));
+
+
+
+// var long = "Australia"
+// var long1 = "Germany"
+// var long2 = "United States of America";
+
+// const getLongStr = ()=>{
+   
+//   if(long.length >= 10) {console.log(long);}
+//    else if(long1.length >=10) {console.log(long1);}
+//    if(long2.length>=10) {console.log(long2);} 
+// }
+// // console.log(getLongStr('Australia','Germany','United States of America'));
+
+// getLongStr();
+
+
+// const uzunlik = (c,d,e)=>{
+// // console.log(newuzun);
+//    return c.length >= d.length>= e.length;
+      
+// }
+
+// console.log(uzunlik("Australia","Germany","United States of America"));
 
