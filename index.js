@@ -211,11 +211,11 @@
 // console.log(...fruits);
 
 // for(let i=1; i<=100; i++){
-//     // if( i%3 ===0){
-//     //     console.log('fizz');
-//     // }
-//     // else if(i%5 === 0){
-//     //     console.log('Buzz');
+//     if( i%3 ===0){
+//         console.log('fizz');
+//     }
+//     else if(i%5 === 0){
+//         console.log('Buzz');
 //             // }
 //       if(i%3 == 0 && i%5 == 0)
 //           console.log(i , 'fizzbuzz');
@@ -290,7 +290,7 @@
 
 // let obj ={
 //     id : 1,
-//     name: 'sardor',
+// //     name: 'sardor',
 //     job:'developer',
 //     fullname: function(){
 //         return this.name + ' ' +  this.job;
@@ -462,7 +462,7 @@ depatment: 'front-end',
          return false;
       }
    
-    }
+   }
      console.log(palindrom1('madona'));
      console.log(palindrom1('madam'));
 
@@ -482,58 +482,58 @@ function newget(a) {
 };
  newget('webmaster');
 
- 
 
+ 
 function capitalLetter(nom){
  return nom.toUpperCase();
 }
 console.log(capitalLetter('the quick brown fox'));
 
 
-// const sonTekshir=(son)=>{
-//    return son % 2;  'juft son';
-// }
-// console.log(sonTekshir(17 ,'juft son'));
+const sonTekshir=(son)=>{
+   return son % 2;  'juft son';
+}
+console.log(sonTekshir(16 ,'juft son'));
 
 
 
-// var str1='6savol("hello")';
+var str1='6savol("hello")';
 
-// var newold= function(){
-//    console.log(typeof str1);
-// }
-// newold();
-
-
-// const newyoung=(a,b)=>{
-
-//    return a**b
-// }
-
-// console.log(newyoung(7,2));
+var newold= function(){
+   console.log(typeof str1);
+}
+newold();
 
 
+const newyoung=(a,b)=>{
+   return a**b
+}
+console.log(newyoung(7,2));
 
-// var long = "Australia"
-// var long1 = "Germany"
-// var long2 = "United States of America";
 
-// const getLongStr = ()=>{
+function getletter(t,text){
+   var a=0;
+for(let i in text){
+    if(text[i]==t){a++;}
+}
+console.log(a);  
+}
+getletter('e','the given letter');
+
+
+
+var long = "Australia"
+var long1 = "Germany"
+var long2 = "United States of America";
+
+const getLongStr = ()=>{
    
-//   if(long.length >= 10) {console.log(long);}
-//    else if(long1.length >=10) {console.log(long1);}
-//    if(long2.length>=10) {console.log(long2);} 
-// }
-// // console.log(getLongStr('Australia','Germany','United States of America'));
+  if(long.length >= 10) {console.log(long);}
+   else if(long1.length >=10) {console.log(long1);}
+   if(long2.length>=10) {console.log(long2);} 
+}
+// console.log(getLongStr('Australia','Germany','United States of America'));
 
-// getLongStr();
+getLongStr();
 
-
-// const uzunlik = (c,d,e)=>{
-// // console.log(newuzun);
-//    return c.length >= d.length>= e.length;
-      
-// }
-
-// console.log(uzunlik("Australia","Germany","United States of America"));
 
