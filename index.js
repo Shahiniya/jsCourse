@@ -537,3 +537,73 @@ const getLongStr = ()=>{
 getLongStr();
 
 
+const getCar=(c)=>{
+     if(c===13000){console.log('Gentra sizniki!')}
+     else if(c===12000){"Cobalt olsangiz bo'ladi!"}
+     else if (c===9000){"Spark bo'ladimi!"}
+     else if(c===7000){"Miniligan spark!"}
+     else{console.log('Matiz bolaveradi!')}
+}
+getCar(6000);
+
+
+const getScore=(d)=>{
+    if(d<=49){console.log('Qayta topshiring!')}
+    else if(d>=71 && d<=80){console.log('E')}
+    else if(d>=50 && d<=60){console.log('D')}
+    else if(d>=61 && d<=70){console.log('C')}
+    else if(d>=81 && d<=90){console.log('B')}
+    else if(d>=91 && d<=100){console.log('A')}
+     else if(d>=101){console.log('bunday baholash turi mavjud emas!')}
+
+}
+getScore(185);
+
+
+const getCars=(car)=>{
+      switch(car)
+       {case 13000: console.log('Gentra')
+      break;
+      case 10000: console.log('Neksiya')
+      break;
+      case 9000: console.log('Cobalt')
+      break;
+      case 7000: console.log('Spark')
+      default : console.log('BU buladimi?')
+       }
+
+}
+getCars(9000);
+
+
+const getScores=(w)=>{
+     w===1000 ? console.log(2000) : console.log(300)
+}
+getScores(1000);
+
+
+var star='';
+
+for(let i=0; i<=10; i++){
+   
+   if( star === i.length-3){
+   
+   }
+   console.log( star +='*');
+}
+
+
+
+// var a=10;
+// var star='';
+
+// for(let i=0; i<a; i++){
+//    for(j=a; j>i*2-1; j--){
+//    star += '';
+//    }
+//    for(let k =0; k < i * 2-1; k++){
+//       star += '*';
+//    }
+//    star += 'n'
+// }
+// console.log(star);
