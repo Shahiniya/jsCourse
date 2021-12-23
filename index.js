@@ -594,16 +594,16 @@ for(let i=0; i<=10; i++){
 
 
 
-// var a=10;
-// var star='';
+var a=10;
+var star='';
 
-// for(let i=0; i<a; i++){
-//    for(j=a; j>i*2-1; j--){
-//    star += '';
-//    }
-//    for(let k =0; k < i * 2-1; k++){
-//       star += '*';
-//    }
-//    star += 'n'
-// }
-// console.log(star);
+for(let i=0; i<a; i++){
+   for(j=a; j>i*2-1; j--){
+   star += '';
+   }
+   for(let k =0; k < i * 2-1; k++){
+      star += '*';
+   }
+   star += 'n'
+}
+console.log(star);
