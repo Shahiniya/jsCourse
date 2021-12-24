@@ -650,3 +650,29 @@ getMiddle();
 console.log(getpiramid(10));
 
 
+
+
+
+const getNum=(c)=>{
+   var firstindex=0;
+   var lastindex = 0;
+      for(let i=0; i<= c.length; i++){
+         if(c[i] > 0){
+             firstindex = i;
+             break;
+         }
+      }
+      for( j > 0; j = c.length;  j--){
+         if(c[j] > 0){
+            console.log(c[j])
+            lastindex = j;
+            break;
+         }
+}
+      return c.slice(firstindex,lastindex+1)
+}
+console.log(getNum('00001011003450100'));
+
+
+
+
