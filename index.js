@@ -586,7 +586,7 @@ var star='';
 
 for(let i=0; i<=10; i++){
    
-   if( star === i.length-3){
+   if( star === i.length-1){
    
    }
    console.log( star +='*');
@@ -604,6 +604,49 @@ for(let i=0; i<a; i++){
    for(let k =0; k < i * 2-1; k++){
       star += '*';
    }
-   star += 'n'
+   star += '\n'
 }
 console.log(star);
+
+
+
+var str = '12534'
+
+  const getMiddle=()=>{
+    
+   for( let i=0; i<=str.length; i++){
+     
+     if(str.length%2 != 0) {
+var j=Math.floor(str.length/2 );
+console.log(Number(str[j]));
+
+break;
+     }
+        else if(str.length%2 == 0){
+      var j=Math.floor(str.length/2 );
+     
+     console.log(Number(str[j]) + Number(str[j-1]));
+break;}
+     }
+  }
+getMiddle();
+
+
+
+ const getpiramid=(row)=>{
+    var str='';
+     for(let i=1;i<=row;i++ ){
+      var sum = row - i;
+      // if(i==1){
+      //    str += ' '.repeat(sum) + '*'.repeat(i) + ' '.repeat(sum) + '\n'
+      // }
+      // else{
+         if(str += ' '.repeat(sum) + '*'.repeat(i+i-1) + ' ' .repeat(sum) + '\n' ){ }
+      //  }
+        }
+     return str
+ }
+
+console.log(getpiramid(10));
+
+
