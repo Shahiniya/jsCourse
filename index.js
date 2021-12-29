@@ -676,7 +676,7 @@ getMiddle();
 
 const getnum=(k,n)=>{
 
-   for (let i=1; i <= n; i++){
+   for (let i=1; i <=n; i++){
         
       console.log(k,i)
      
@@ -697,16 +697,73 @@ var c=0;
 getcoin(20,50);
 
 const getcoins=(a,b)=>{
-  if(a <= b){
-     return;
-   }
-   console.log(a);
-   getcoins(++a)
-   }
-   getcoins(10,30);
-   
+  var n = a*b
+   console.log(n);
+     }
+   getcoins(1200,15);
 
 
+   const getcois=(a,b)=>{
+      var n = a*b
+       console.log(n);
+         }
+       getcois(12000,0.5);
+
+       const getcos=(a,b)=>{
+         var n = a*b
+          console.log(n);
+            }
+          getcos(12000,2);
+
+
+ar =[10,20,5,6,9,4,7]
+
+const getNums=(a,b)=>{
+// var c=0;
+//  for(let i =a; i<=b ; i++){
+//     console.log(c+=i);
+//     c++;
+//  }
+ar.sort((a,b)=>b-a)
+console.log(ar);
+}
+getNums(10,7);
+
+
+
+ars =[10,20,5,6,9,4,7];
+
+const getNus=(a,b)=>{
+   var c=0;
+    for(let i =ars[0]; i<=ars[-1] ; i++){
+       console.log(c+= ars);
+       c++;
+    }
+   // ar.sort((a,b)=>b-a)
+   // console.log(ar);
+   // }
+}
+   getNus(10,7);
+
+
+   const getson=(a,b)=>{
+      var c=0;
+       for(let i =a; i<b ; i++){
+         console.log(c+=i);
+            c++;
+      }
+      }
+      getson(0,10);
+
+
+
+var a=0;
+var b=15;
+var sum=0;
+ for(let i=a; i<=b; i++){
+    console.log(sum += i);
+       sum++;
+ }
 
 
 
