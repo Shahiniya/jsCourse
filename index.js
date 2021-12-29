@@ -685,7 +685,15 @@ const getnum=(k,n)=>{
 }
 getnum(5,10);
 
- 
+ function num(a,b){
+   for (let i=1; i <=b; i++){
+        
+      console.log(a,i)
+     
+      }
+    
+ }
+ num(5,10);
 
 const getcoin=(a,b)=>{
 var c=0;
@@ -734,14 +742,12 @@ getNums(10,7);
 ars =[10,20,5,6,9,4,7];
 
 const getNus=(a,b)=>{
-   var c=0;
-    for(let i =ars[0]; i<=ars[-1] ; i++){
-       console.log(c+= ars);
-       c++;
-    }
-   // ar.sort((a,b)=>b-a)
-   // console.log(ar);
-   // }
+   var c=[];
+   for(let i=1; i<ars.length-1; i++){
+      c.push(ars[i])
+   }   
+         console.log(c);
+
 }
    getNus(10,7);
 
@@ -750,7 +756,7 @@ const getNus=(a,b)=>{
       var c=0;
        for(let i =a; i<b ; i++){
          console.log(c+=i);
-            c++;
+            // c++;
       }
       }
       getson(0,10);
@@ -761,9 +767,32 @@ var a=0;
 var b=15;
 var sum=0;
  for(let i=a; i<=b; i++){
+   // sum++;
     console.log(sum += i);
-       sum++;
- }
+ };
+
+ var o=1;
+ var f=15;
+ var sums=1;
+  for(let i=o; i<=f; i++){
+     console.log(sums *= i);
+       
+  };
+ 
+
+  var og=1;
+  var fa=15;
+  var sums=0;
+   for(let i=og; i<=fa; i++){
+     
+      console.log(Math.pow(i,2));
+   };
+  
+
+
+
+
+
 
 
 
