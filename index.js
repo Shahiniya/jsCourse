@@ -633,45 +633,79 @@ getMiddle();
 
 
 
- const getpiramid=(row)=>{
-    var str='';
-     for(let i=1;i<=row;i++ ){
-      var sum = row - i;
-      // if(i==1){
-      //    str += ' '.repeat(sum) + '*'.repeat(i) + ' '.repeat(sum) + '\n'
-      // }
-      // else{
-         if(str += ' '.repeat(sum) + '*'.repeat(i+i-1) + ' ' .repeat(sum) + '\n' ){ }
-      //  }
-        }
-     return str
- }
+//  const getpiramid=(row)=>{
+//     var str='';
+//      for(let i=1;i<=row;i++ ){
+//       var sum = row - i;
+//       // if(i==1){
+//       //    str += ' '.repeat(sum) + '*'.repeat(i) + ' '.repeat(sum) + '\n'
+//       // }
+//       // else{
+//          if(str += ' '.repeat(sum) + '*'.repeat(i+i-1) + ' ' .repeat(sum) + '\n' ){ }
+//       //  }
+//         }
+//      return str
+//  }
 
-console.log(getpiramid(10));
-
-
+// console.log(getpiramid(10));
 
 
 
-const getNum=(c)=>{
-   var firstindex=0;
-   var lastindex = 0;
-      for(let i=0; i<= c.length; i++){
-         if(c[i] > 0){
-             firstindex = i;
-             break;
-         }
+
+
+// const getNum=(c)=>{
+//    var firstindex=0;
+//    var lastindex = 0;
+//       for(let i=0; i<= c.length; i++){
+//          if(c[i] > 0){
+//              firstindex = i;
+//              break;
+//          }
+//       }
+//       for( j > 0; j = c.length;  j--){
+//          if(c[j] > 0){
+//             console.log(c[j])
+//             lastindex = j;
+//             break;
+//          }
+// }
+//       return c.slice(firstindex,lastindex+1)
+// }
+// console.log(getNum('00001011003450100'));
+
+
+const getnum=(k,n)=>{
+
+   for (let i=1; i <= n; i++){
+        
+      console.log(k,i)
+     
       }
-      for( j > 0; j = c.length;  j--){
-         if(c[j] > 0){
-            console.log(c[j])
-            lastindex = j;
-            break;
-         }
+   
 }
-      return c.slice(firstindex,lastindex+1)
+getnum(5,10);
+
+ 
+
+const getcoin=(a,b)=>{
+var c=0;
+ for(let i=0; a<=b;i++){
+   console.log(a);
+   a++;
 }
-console.log(getNum('00001011003450100'));
+}
+getcoin(20,50);
+
+const getcoins=(a,b)=>{
+  if(a <= b){
+     return;
+   }
+   console.log(a);
+   getcoins(++a)
+   }
+   getcoins(10,30);
+   
+
 
 
 
