@@ -788,11 +788,39 @@ var sum=0;
       console.log(Math.pow(i,2));
    };
   
+// var a='asdasS'
+// var b='sAasa'
+
+// var set = a.toLowerCase().split('').sort().join('');
+// var sets = b.toLowerCase().split('').sort().join('');
+
+// console.log(set,sets);
 
 
+const getsort=(a,b)=>{
+   var d = a.toLowerCase().split('').sort().join('');
+   var c = b.toLowerCase().split('').sort().join('');
+if(d.includes(c)){
+     console.log(true);
+   }
+   else(
+      console.log(false)
+   )
+}
+getsort('asas','sAsa');
+getsort('asAs','sbsa');
 
 
+const getsorts=(a,b)=>{
+   return a.toLowerCase().split('').sort().join('')===
+    b.toLowerCase().split('').sort().join('')
+   
+}
+console.log(getsorts('asas','sAsa'));
+console.log(getsorts('asAs','sbsa'));
 
-
-
-
+const getsortss=(a,b)=>{
+   return a===b
+   }
+console.log(getsortss('asas','sAsa'));
+console.log(getsortss('asAs','sbsa'));
