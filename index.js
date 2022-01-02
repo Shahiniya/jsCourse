@@ -443,193 +443,193 @@ depatment: 'front-end',
 // console.log(`Yil kiriting ${yil}  Go  Siz kiritgan yil ${asr} asrga tegishli`)
 
 
- function getBack(){
-   var son = 32243;
-   console.log(+son.toString().split('').reverse().join(''))
+//  function getBack(){
+//    var son = 32243;
+//    console.log(+son.toString().split('').reverse().join(''))
 
- }
-   getBack();
+//  }
+//    getBack();
 
 
 
-   function palindrom1(p){
+//    function palindrom1(p){
      
-      var b = p.split('').reverse().join('');
-      if(p==b){
-         return true;
-      }
-      else{
-         return false;
-      }
+//       var b = p.split('').reverse().join('');
+//       if(p==b){
+//          return true;
+//       }
+//       else{
+//          return false;
+//       }
    
-   }
-     console.log(palindrom1('madona'));
-     console.log(palindrom1('madam'));
+//    }
+//      console.log(palindrom1('madona'));
+//      console.log(palindrom1('madam'));
 
 
 
-var str = 'madam'
+// var str = 'madam'
 
-const palindrom=(v)=>{
-  return str === v;
-}
-console.log(palindrom('madonna'));
-console.log(palindrom('madam'));
+// const palindrom=(v)=>{
+//   return str === v;
+// }
+// console.log(palindrom('madonna'));
+// console.log(palindrom('madam'));
 
 
-function newget(a) {
-   console.log(a.split('').sort().join(''));
-};
- newget('webmaster');
+// function newget(a) {
+//    console.log(a.split('').sort().join(''));
+// };
+//  newget('webmaster');
 
 
  
-function capitalLetter(nom){
- return nom.toUpperCase();
-}
-console.log(capitalLetter('the quick brown fox'));
+// function capitalLetter(nom){
+//  return nom.toUpperCase();
+// }
+// console.log(capitalLetter('the quick brown fox'));
 
 
-const sonTekshir=(son)=>{
-   return son % 2;  'juft son';
-}
-console.log(sonTekshir(16 ,'juft son'));
-
-
-
-var str1='6savol("hello")';
-
-var newold= function(){
-   console.log(typeof str1);
-}
-newold();
-
-
-const newyoung=(a,b)=>{
-   return a**b
-}
-console.log(newyoung(7,2));
-
-
-function getletter(t,text){
-   var a=0;
-for(let i in text){
-    if(text[i]==t){a++;}
-}
-console.log(a);  
-}
-getletter('e','the given letter');
+// const sonTekshir=(son)=>{
+//    return son % 2;  'juft son';
+// }
+// console.log(sonTekshir(16 ,'juft son'));
 
 
 
-var long = "Australia"
-var long1 = "Germany"
-var long2 = "United States of America";
+// var str1='6savol("hello")';
 
-const getLongStr = ()=>{
+// var newold= function(){
+//    console.log(typeof str1);
+// }
+// newold();
+
+
+// const newyoung=(a,b)=>{
+//    return a**b
+// }
+// console.log(newyoung(7,2));
+
+
+// function getletter(t,text){
+//    var a=0;
+// for(let i in text){
+//     if(text[i]==t){a++;}
+// }
+// console.log(a);  
+// }
+// getletter('e','the given letter');
+
+
+
+// var long = "Australia"
+// var long1 = "Germany"
+// var long2 = "United States of America";
+
+// const getLongStr = ()=>{
    
-  if(long.length >= 10) {console.log(long);}
-   else if(long1.length >=10) {console.log(long1);}
-   if(long2.length>=10) {console.log(long2);} 
-}
-// console.log(getLongStr('Australia','Germany','United States of America'));
+//   if(long.length >= 10) {console.log(long);}
+//    else if(long1.length >=10) {console.log(long1);}
+//    if(long2.length>=10) {console.log(long2);} 
+// }
+// // console.log(getLongStr('Australia','Germany','United States of America'));
 
-getLongStr();
-
-
-const getCar=(c)=>{
-     if(c===13000){console.log('Gentra sizniki!')}
-     else if(c===12000){"Cobalt olsangiz bo'ladi!"}
-     else if (c===9000){"Spark bo'ladimi!"}
-     else if(c===7000){"Miniligan spark!"}
-     else{console.log('Matiz bolaveradi!')}
-}
-getCar(6000);
+// getLongStr();
 
 
-const getScore=(d)=>{
-    if(d<=49){console.log('Qayta topshiring!')}
-    else if(d>=71 && d<=80){console.log('E')}
-    else if(d>=50 && d<=60){console.log('D')}
-    else if(d>=61 && d<=70){console.log('C')}
-    else if(d>=81 && d<=90){console.log('B')}
-    else if(d>=91 && d<=100){console.log('A')}
-     else if(d>=101){console.log('bunday baholash turi mavjud emas!')}
-
-}
-getScore(185);
+// const getCar=(c)=>{
+//      if(c===13000){console.log('Gentra sizniki!')}
+//      else if(c===12000){"Cobalt olsangiz bo'ladi!"}
+//      else if (c===9000){"Spark bo'ladimi!"}
+//      else if(c===7000){"Miniligan spark!"}
+//      else{console.log('Matiz bolaveradi!')}
+// }
+// getCar(6000);
 
 
-const getCars=(car)=>{
-      switch(car)
-       {case 13000: console.log('Gentra')
-      break;
-      case 10000: console.log('Neksiya')
-      break;
-      case 9000: console.log('Cobalt')
-      break;
-      case 7000: console.log('Spark')
-      default : console.log('BU buladimi?')
-       }
+// const getScore=(d)=>{
+//     if(d<=49){console.log('Qayta topshiring!')}
+//     else if(d>=71 && d<=80){console.log('E')}
+//     else if(d>=50 && d<=60){console.log('D')}
+//     else if(d>=61 && d<=70){console.log('C')}
+//     else if(d>=81 && d<=90){console.log('B')}
+//     else if(d>=91 && d<=100){console.log('A')}
+//      else if(d>=101){console.log('bunday baholash turi mavjud emas!')}
 
-}
-getCars(9000);
+// }
+// getScore(185);
 
 
-const getScores=(w)=>{
-     w===1000 ? console.log(2000) : console.log(300)
-}
-getScores(1000);
+// const getCars=(car)=>{
+//       switch(car)
+//        {case 13000: console.log('Gentra')
+//       break;
+//       case 10000: console.log('Neksiya')
+//       break;
+//       case 9000: console.log('Cobalt')
+//       break;
+//       case 7000: console.log('Spark')
+//       default : console.log('BU buladimi?')
+//        }
+
+// }
+// getCars(9000);
 
 
-var star='';
+// const getScores=(w)=>{
+//      w===1000 ? console.log(2000) : console.log(300)
+// }
+// getScores(1000);
 
-for(let i=0; i<=10; i++){
+
+// var star='';
+
+// for(let i=0; i<=10; i++){
    
-   if( star === i.length-1){
+//    if( star === i.length-1){
    
-   }
-   console.log( star +='*');
-}
+//    }
+//    console.log( star +='*');
+// }
 
 
 
-var a=10;
-var star='';
+// var a=10;
+// var star='';
 
-for(let i=0; i<a; i++){
-   for(j=a; j>i*2-1; j--){
-   star += '';
-   }
-   for(let k =0; k < i * 2-1; k++){
-      star += '*';
-   }
-   star += '\n'
-}
-console.log(star);
+// for(let i=0; i<a; i++){
+//    for(j=a; j>i*2-1; j--){
+//    star += '';
+//    }
+//    for(let k =0; k < i * 2-1; k++){
+//       star += '*';
+//    }
+//    star += '\n'
+// }
+// console.log(star);
 
 
 
-var str = '12534'
+// var str = '12534'
 
-  const getMiddle=()=>{
+//   const getMiddle=()=>{
     
-   for( let i=0; i<=str.length; i++){
+//    for( let i=0; i<=str.length; i++){
      
-     if(str.length%2 != 0) {
-var j=Math.floor(str.length/2 );
-console.log(Number(str[j]));
+//      if(str.length%2 != 0) {
+// var j=Math.floor(str.length/2 );
+// console.log(Number(str[j]));
 
-break;
-     }
-        else if(str.length%2 == 0){
-      var j=Math.floor(str.length/2 );
+// break;
+//      }
+//         else if(str.length%2 == 0){
+//       var j=Math.floor(str.length/2 );
      
-     console.log(Number(str[j]) + Number(str[j-1]));
-break;}
-     }
-  }
-getMiddle();
+//      console.log(Number(str[j]) + Number(str[j-1]));
+// break;}
+//      }
+//   }
+// getMiddle();
 
 
 
@@ -674,127 +674,127 @@ getMiddle();
 // console.log(getNum('00001011003450100'));
 
 
-const getnum=(k,n)=>{
+// const getnum=(k,n)=>{
 
-   for (let i=1; i <=n; i++){
+//    for (let i=1; i <=n; i++){
         
-      console.log(k,i)
+//       console.log(k,i)
      
-      }
+//       }
    
-}
-getnum(5,10);
+// }
+// getnum(5,10);
 
- function num(a,b){
-   for (let i=1; i <=b; i++){
+//  function num(a,b){
+//    for (let i=1; i <=b; i++){
         
-      console.log(a,i)
+//       console.log(a,i)
      
-      }
+//       }
     
- }
- num(5,10);
-
-const getcoin=(a,b)=>{
-var c=0;
- for(let i=0; a<=b;i++){
-   console.log(a);
-   a++;
-}
-}
-getcoin(20,50);
-
-const getcoins=(a,b)=>{
-  var n = a*b
-   console.log(n);
-     }
-   getcoins(1200,15);
-
-
-   const getcois=(a,b)=>{
-      var n = a*b
-       console.log(n);
-         }
-       getcois(12000,0.5);
-
-       const getcos=(a,b)=>{
-         var n = a*b
-          console.log(n);
-            }
-          getcos(12000,2);
-
-
-ar =[10,20,5,6,9,4,7]
-
-const getNums=(a,b)=>{
-// var c=0;
-//  for(let i =a; i<=b ; i++){
-//     console.log(c+=i);
-//     c++;
 //  }
-ar.sort((a,b)=>b-a)
-console.log(ar);
-}
-getNums(10,7);
+//  num(5,10);
+
+// const getcoin=(a,b)=>{
+// var c=0;
+//  for(let i=0; a<=b;i++){
+//    console.log(a);
+//    a++;
+// }
+// }
+// getcoin(20,50);
+
+// const getcoins=(a,b)=>{
+//   var n = a*b
+//    console.log(n);
+//      }
+//    getcoins(1200,15);
+
+
+//    const getcois=(a,b)=>{
+//       var n = a*b
+//        console.log(n);
+//          }
+//        getcois(12000,0.5);
+
+//        const getcos=(a,b)=>{
+//          var n = a*b
+//           console.log(n);
+//             }
+//           getcos(12000,2);
+
+
+// ar =[10,20,5,6,9,4,7]
+
+// const getNums=(a,b)=>{
+// // var c=0;
+// //  for(let i =a; i<=b ; i++){
+// //     console.log(c+=i);
+// //     c++;
+// //  }
+// ar.sort((a,b)=>b-a)
+// console.log(ar);
+// }
+// getNums(10,7);
 
 
 
-ars =[10,20,5,6,9,4,7];
+// ars =[10,20,5,6,9,4,7];
 
-const getNus=(a,b)=>{
-   var c=[];
-   for(let i=1; i<ars.length-1; i++){
-      c.push(ars[i])
-   }   
-         console.log(c);
+// const getNus=(a,b)=>{
+//    var c=[];
+//    for(let i=1; i<ars.length-1; i++){
+//       c.push(ars[i])
+//    }   
+//          console.log(c);
 
-}
-   getNus(10,7);
-
-
-   const getson=(a,b)=>{
-      var c=0;
-       for(let i =a; i<b ; i++){
-         console.log(c+=i);
-            // c++;
-      }
-      }
-      getson(0,10);
+// }
+//    getNus(10,7);
 
 
+//    const getson=(a,b)=>{
+//       var c=0;
+//        for(let i =a; i<b ; i++){
+//          console.log(c+=i);
+//             // c++;
+//       }
+//       }
+//       getson(0,10);
 
-var a=0;
-var b=15;
-var sum=0;
- for(let i=a; i<=b; i++){
-   // sum++;
-    console.log(sum += i);
- };
 
- var o=1;
- var f=15;
- var sums=1;
-  for(let i=o; i<=f; i++){
-     console.log(sums *= i);
+
+// var a=0;
+// var b=15;
+// var sum=0;
+//  for(let i=a; i<=b; i++){
+//    // sum++;
+//     console.log(sum += i);
+//  };
+
+//  var o=1;
+//  var f=15;
+//  var sums=1;
+//   for(let i=o; i<=f; i++){
+//      console.log(sums *= i);
        
-  };
+//   };
  
 
-  var og=1;
-  var fa=15;
-  var sums=0;
-   for(let i=og; i<=fa; i++){
+//   var og=1;
+//   var fa=15;
+//   var sums=0;
+//    for(let i=og; i<=fa; i++){
      
-      console.log(Math.pow(i,2));
-   };
+//       console.log(Math.pow(i,2));
+//    };
   
-// var a='asdasS'
-// var b='sAasa'
+var a='asdasS'
+var b='sAasa'
 
-// var set = a.toLowerCase().split('').sort().join('');
-// var sets = b.toLowerCase().split('').sort().join('');
+var set = a.toLowerCase().split('').sort().join('');
+var sets = b.toLowerCase().split('').sort().join('');
 
-// console.log(set,sets);
+console.log(set,sets);
 
 
 const getsort=(a,b)=>{
@@ -822,5 +822,10 @@ console.log(getsorts('asAs','sbsa'));
 const getsortss=(a,b)=>{
    return a===b
    }
-console.log(getsortss('asas','sAsa'));
+console.log(getsortss('asas','asas'));
 console.log(getsortss('asAs','sbsa'));
+
+
+
+
+
