@@ -911,3 +911,38 @@ const getTree=(action,name)=>{
 
 }
 getTree('add','Tool');
+
+var str3 = 'ap, sa, do, na,';
+
+var sum = 0;
+
+var st = str3.replace(/, /g , 'a');
+
+for (let i=0; i< st.length ; i++){
+   if(st[i] == 'a'){
+      sum++;
+   }
+}
+console.log(sum);
+console.log(str3.length);
+console.log(st.length);
+
+
+var art= [ 1, 2 , 3 ,5 , 6 , 7 ,10]
+var s =[];
+var b = [];
+
+   art.map((value)=>{
+     if(value % 2 ==0 ){
+      s.push(value)
+   }
+   else(b.push(value))
+});
+
+console.log(s,b);
+
+
+
+
+
+
