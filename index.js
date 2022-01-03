@@ -857,7 +857,7 @@ getSort('delete','Yunus');
 
 var arrs=['non','pishloq','somsa','patir']
 
-const personDate=(action,name)=>{
+const breadDate=(action,name)=>{
    var count = 0;
     if(action == 'delete'){
        console.log(arrs.filter((value)=>value !== name));
@@ -873,4 +873,41 @@ const personDate=(action,name)=>{
        console.log(arrs);
     }
 }
-personDate('save','jam');
+breadDate('save','jam');
+
+
+var ars=['google', 'leetcode','epam','LG','Samsung'];
+
+const getjob=(action,name)=>{
+   var sum=0;
+ if(action == 'choose'){
+   console.log(ars.filter((value)=> value!== name));
+ }
+ else if(action == 'work'){
+    ars.map((value)=> value == name && sum++)
+    if(sum >= 1){
+       console.log(ars);
+    }
+    else(ars.push(name))
+    console.log(ars);
+ }
+}
+getjob('work','LG');
+
+var lists=['Archa','Tol','Terak']
+const getTree=(action,name)=>{
+   var sum = 0;
+   if(action == 'check'){
+      console.log(lists.filter((value)=> value !== name));
+   }
+   else if(action == 'add' ){
+     lists.map((value) => value == name && sum++)
+     if(sum >= 1){
+        console.log(lists);
+     }
+     else(lists.push(name))
+      console.log(lists);
+   }
+
+}
+getTree('add','Tool');
