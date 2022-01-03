@@ -825,7 +825,52 @@ const getsortss=(a,b)=>{
 console.log(getsortss('asas','asas'));
 console.log(getsortss('asAs','sbsa'));
 
+var str='Olma,nok,Uzum,Tarvuz';
+var count=0;
+
+for(let i=0; i<str.length; i++){
+ if(str[i]== ', '){
+
+ }
+ console.log();
+}
 
 
+var arr=['Odil','Fozil','Yunus','Abdulloh','Laziza']
+var count = 0;
+const getSort=(action,name)=>{
+  if(action=='delete'){
+     console.log(arr.filter((value)=> value!==name ));
+  } else if(action == 'save'){
+     arr.map((value)=>value == name && count++);
+     if(count >=1){
+     console.log(arr);
+     }
+    else(
+       arr.push(name))
+       console.log(arr);
+    
+   }
+}
+getSort('delete','Yunus');
 
 
+var arrs=['non','pishloq','somsa','patir']
+
+const personDate=(action,name)=>{
+   var count = 0;
+    if(action == 'delete'){
+       console.log(arrs.filter((value)=>value !== name));
+    }
+    else if(action == 'save'){
+       arrs.map((value)=> value == name && count ++)
+       if(count >=1){
+          console.log(arrs);
+       }
+       else(
+          arrs.push(name)
+       )
+       console.log(arrs);
+    }
+}
+personDate('save','jam');
