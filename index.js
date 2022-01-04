@@ -788,159 +788,224 @@ depatment: 'front-end',
 //       console.log(Math.pow(i,2));
 //    };
   
-var a='asdasS'
-var b='sAasa'
+// var a='asdasS'
+// var b='sAasa'
 
-var set = a.toLowerCase().split('').sort().join('');
-var sets = b.toLowerCase().split('').sort().join('');
+// var set = a.toLowerCase().split('').sort().join('');
+// var sets = b.toLowerCase().split('').sort().join('');
 
-console.log(set,sets);
-
-
-const getsort=(a,b)=>{
-   var d = a.toLowerCase().split('').sort().join('');
-   var c = b.toLowerCase().split('').sort().join('');
-if(d.includes(c)){
-     console.log(true);
-   }
-   else(
-      console.log(false)
-   )
-}
-getsort('asas','sAsa');
-getsort('asAs','sbsa');
+// console.log(set,sets);
 
 
-const getsorts=(a,b)=>{
-   return a.toLowerCase().split('').sort().join('')===
-    b.toLowerCase().split('').sort().join('')
+// const getsort=(a,b)=>{
+//    var d = a.toLowerCase().split('').sort().join('');
+//    var c = b.toLowerCase().split('').sort().join('');
+// if(d.includes(c)){
+//      console.log(true);
+//    }
+//    else(
+//       console.log(false)
+//    )
+// }
+// getsort('asas','sAsa');
+// getsort('asAs','sbsa');
+
+
+// const getsorts=(a,b)=>{
+//    return a.toLowerCase().split('').sort().join('')===
+//     b.toLowerCase().split('').sort().join('')
    
-}
-console.log(getsorts('asas','sAsa'));
-console.log(getsorts('asAs','sbsa'));
+// }
+// console.log(getsorts('asas','sAsa'));
+// console.log(getsorts('asAs','sbsa'));
 
-const getsortss=(a,b)=>{
-   return a===b
-   }
-console.log(getsortss('asas','asas'));
-console.log(getsortss('asAs','sbsa'));
+// const getsortss=(a,b)=>{
+//    return a===b
+//    }
+// console.log(getsortss('asas','asas'));
+// console.log(getsortss('asAs','sbsa'));
 
-var str='Olma,nok,Uzum,Tarvuz';
-var count=0;
+// var str='Olma,nok,Uzum,Tarvuz';
+// var count=0;
 
-for(let i=0; i<str.length; i++){
- if(str[i]== ', '){
+// for(let i=0; i<str.length; i++){
+//  if(str[i]== ', '){
 
- }
- console.log();
-}
+//  }
+//  console.log();
+// }
 
 
-var arr=['Odil','Fozil','Yunus','Abdulloh','Laziza']
-var count = 0;
-const getSort=(action,name)=>{
-  if(action=='delete'){
-     console.log(arr.filter((value)=> value!==name ));
-  } else if(action == 'save'){
-     arr.map((value)=>value == name && count++);
-     if(count >=1){
-     console.log(arr);
-     }
-    else(
-       arr.push(name))
-       console.log(arr);
+// var arr=['Odil','Fozil','Yunus','Abdulloh','Laziza']
+// var count = 0;
+// const getSort=(action,name)=>{
+//   if(action=='delete'){
+//      console.log(arr.filter((value)=> value!==name ));
+//   } else if(action == 'save'){
+//      arr.map((value)=>value == name && count++);
+//      if(count >=1){
+//      console.log(arr);
+//      }
+//     else(
+//        arr.push(name))
+//        console.log(arr);
     
-   }
-}
-getSort('delete','Yunus');
+//    }
+// }
+// getSort('delete','Yunus');
 
 
-var arrs=['non','pishloq','somsa','patir']
+// var arrs=['non','pishloq','somsa','patir']
 
-const breadDate=(action,name)=>{
-   var count = 0;
-    if(action == 'delete'){
-       console.log(arrs.filter((value)=>value !== name));
-    }
-    else if(action == 'save'){
-       arrs.map((value)=> value == name && count ++)
-       if(count >=1){
-          console.log(arrs);
-       }
-       else(
-          arrs.push(name)
-       )
-       console.log(arrs);
-    }
-}
-breadDate('save','jam');
-
-
-var ars=['google', 'leetcode','epam','LG','Samsung'];
-
-const getjob=(action,name)=>{
-   var sum=0;
- if(action == 'choose'){
-   console.log(ars.filter((value)=> value!== name));
- }
- else if(action == 'work'){
-    ars.map((value)=> value == name && sum++)
-    if(sum >= 1){
-       console.log(ars);
-    }
-    else(ars.push(name))
-    console.log(ars);
- }
-}
-getjob('work','LG');
-
-var lists=['Archa','Tol','Terak']
-const getTree=(action,name)=>{
-   var sum = 0;
-   if(action == 'check'){
-      console.log(lists.filter((value)=> value !== name));
-   }
-   else if(action == 'add' ){
-     lists.map((value) => value == name && sum++)
-     if(sum >= 1){
-        console.log(lists);
-     }
-     else(lists.push(name))
-      console.log(lists);
-   }
-
-}
-getTree('add','Tool');
-
-var str3 = 'ap, sa, do, na,';
-
-var sum = 0;
-
-var st = str3.replace(/, /g , 'a');
-
-for (let i=0; i< st.length ; i++){
-   if(st[i] == 'a'){
-      sum++;
-   }
-}
-console.log(sum);
-console.log(str3.length);
-console.log(st.length);
+// const breadDate=(action,name)=>{
+//    var count = 0;
+//     if(action == 'delete'){
+//        console.log(arrs.filter((value)=>value !== name));
+//     }
+//     else if(action == 'save'){
+//        arrs.map((value)=> value == name && count ++)
+//        if(count >=1){
+//           console.log(arrs);
+//        }
+//        else(
+//           arrs.push(name)
+//        )
+//        console.log(arrs);
+//     }
+// }
+// breadDate('save','jam');
 
 
-var art= [ 1, 2 , 3 ,5 , 6 , 7 ,10]
-var s =[];
-var b = [];
+// var ars=['google', 'leetcode','epam','LG','Samsung'];
 
-   art.map((value)=>{
-     if(value % 2 ==0 ){
-      s.push(value)
-   }
-   else(b.push(value))
+// const getjob=(action,name)=>{
+//    var sum=0;
+//  if(action == 'choose'){
+//    console.log(ars.filter((value)=> value!== name));
+//  }
+//  else if(action == 'work'){
+//     ars.map((value)=> value == name && sum++)
+//     if(sum >= 1){
+//        console.log(ars);
+//     }
+//     else(ars.push(name))
+//     console.log(ars);
+//  }
+// }
+// getjob('work','LG');
+
+// var lists=['Archa','Tol','Terak']
+// const getTree=(action,name)=>{
+//    var sum = 0;
+//    if(action == 'check'){
+//       console.log(lists.filter((value)=> value !== name));
+//    }
+//    else if(action == 'add' ){
+//      lists.map((value) => value == name && sum++)
+//      if(sum >= 1){
+//         console.log(lists);
+//      }
+//      else(lists.push(name))
+//       console.log(lists);
+//    }
+
+// }
+// getTree('add','Tool');
+
+// var str3 = 'ap, sa, do, na,';
+
+// var sum = 0;
+
+// var st = str3.replace(/, /g , 'a');
+
+// for (let i=0; i< st.length ; i++){
+//    if(st[i] == 'a'){
+//       sum++;
+//    }
+// }
+// console.log(sum);
+// console.log(str3.length);
+// console.log(st.length);
+
+
+// var art= [ 1, 2 , 3 ,5 , 6 , 7 ,10]
+// var s =[];
+// var b = [];
+
+//    art.map((value)=>{
+//      if(value % 2 ==0 ){
+//       s.push(value)
+//    }
+//    else(b.push(value))
+// });
+
+// console.log(s,b);
+
+
+
+
+// const getNums=(s)=>{
+//  array.map((value)=>{
+//     if(value%2 == 0){
+//        s.push(value)
+//     }
+//  })
+// }
+// getNums([],);
+// var d =[];
+// var f =0 ;
+// array.map((value,index)=>{
+   
+//    if(value % 2 ==0){
+//    d.push(value)
+//    }
+//    else if(value % 2 !== 0){
+//      f= f+value;
+   
+//    };
+// })
+// console.log(d,f)
+
+var array=[1,2,3,4,5];
+
+var d =[];
+var f =0 ;
+array.map((value,index)=>{
+   
+   if(value % 2 ==0){
+   console.log(array[index-1] + array[index+1])
+   } 
+ 
 });
 
-console.log(s,b);
+const geteven=(array)=>{
+   var d = [];
+   array.map((value,index)=>{
+   
+      if(value % 2 ==0){
+         d.push(value)
+      console.log(d,array[index-1] + array[index+1])
+      } 
+    
+   });
+}
+geteven(array);
 
+
+
+
+
+var arra=['olma','uzum','nok','olma'];
+var count =0 ;
+const getfruits=(a)=>{
+      arra.map((value)=>{
+         value == a && count++
+         
+      })
+      console.log(count, `ta ${a} bor`);
+
+}
+getfruits('olma');
 
 
 
