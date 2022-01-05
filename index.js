@@ -1008,6 +1008,41 @@ const getfruits=(a)=>{
 getfruits('olma');
 
 
+var ars=['iphone','samsung','lg','kt','skt']
+var count =0;
+const getars=(act,name)=>{
+    if(act == 'delete'){
+      console.log(ars.filter((value)=>value !== name));
+    }
+    else if(act == 'save'){
+       console.log(ars.map((value)=> value == name && count++))
+       if(count >=1){
+          console.log(ars);
+       }
+       else(ars.push(name))
+       console.log(ars);
+    }
+}
+
+getars('delete', 'lg');
 
 
+var arsi=['AAABBACCD'];
 
+const countLetter=(a,b,c,d)=>{
+   count = 0;sum =0; sums =0; sumss = 0;
+      
+      arsi.join('').split('').map((value)=> { 
+         value == b  && count++ ,  value == a  && sum++ , value == c && sums++ , value == d && sumss++})
+      console.log(a,sum,b,count, c,sums,d,sumss);
+}
+countLetter('A','B','C','D');
+
+const findCount=()=>{
+   count = 0;sum =0; sums =0; sumss = 0;
+        arsi.map((value,index)=>{
+        console.log(arsi[index[0]] == 0);
+       })
+       
+}
+findCount();
