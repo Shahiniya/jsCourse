@@ -1031,18 +1031,47 @@ var arsi=['AAABBACCD'];
 
 const countLetter=(a,b,c,d)=>{
    count = 0;sum =0; sums =0; sumss = 0;
-      
+     l ='';
       arsi.join('').split('').map((value)=> { 
          value == b  && count++ ,  value == a  && sum++ , value == c && sums++ , value == d && sumss++})
-      console.log(a,sum,b,count, c,sums,d,sumss);
+         l+= a, l += sum, l+= b, l += count, l+= c, l += sums, l += d, l += sumss
+         console.log(l);
 }
 countLetter('A','B','C','D');
 
-const findCount=()=>{
-   count = 0;sum =0; sums =0; sumss = 0;
-        arsi.map((value,index)=>{
-        console.log(arsi[index[0]] == 0);
-       })
-       
+
+const findCount=(str)=>{
+   
+   var arr = str.split('');
+   var letters =[];
+   count = 1;
+
+   for(let i = 0 ; i < arr.length; i++){
+      if(arr[i] == arr[i+1]){
+         count++;
+      }
+      // else if(arr[i]== arr [i]){
+      //    count = 1;
+      // }
+      else {
+         let result = `${arr[i]}${count}`;
+         letters = [...letters,result]
+         count = 1;
+      }
+   }
+    return    letters.join('')
 }
-findCount();
+console.log(findCount('AAABBACCD'));
+
+
+const getletters=(str)=>{
+
+   var arz = str.split('');
+   var count =1;
+for(let i = 0; i < arz.length; i++)
+   if(arz[i] == arz[i]){
+      console.log(arz[i+1] && count++);
+   }
+   
+}
+getletters('AAABBACCD');
