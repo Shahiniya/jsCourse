@@ -1054,24 +1054,45 @@ const findCount=(str)=>{
       //    count = 1;
       // }
       else {
+      // count = 1 ? ' ' : count;
+
          let result = `${arr[i]}${count}`;
          letters = [...letters,result]
          count = 1;
+        
       }
+
    }
     return    letters.join('')
 }
 console.log(findCount('AAABBACCD'));
 
 
-const getletters=(str)=>{
+// const getletters=(str)=>{
 
-   var arz = str.split('');
-   var count =1;
-for(let i = 0; i < arz.length; i++)
-   if(arz[i] == arz[i]){
-      console.log(arz[i+1] && count++);
-   }
+//    var arz = str.split('');
+//    var count =1;
+// for(let i = 0; i < arz.length; i++)
+//    if(arz[i] == arz[i]){
+//       console.log(arz[i+1] && count++);
+//    }
    
+// }
+// getletters('AAABBACCD');
+
+
+var obj ={
+   name: 'Shahzoda',
+   surname : 'Panjizoda',
+   job :'front-end developer'
 }
-getletters('AAABBACCD');
+
+obj.newKey='Xurriyatxon';
+obj.name = 'Sobir'
+console.log(Object.entries(obj));
+
+Object.entries(obj).map(([bir,ikki])=>{
+console.log(bir,ikki);
+   
+})
+
