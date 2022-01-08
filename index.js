@@ -1096,3 +1096,23 @@ console.log(bir,ikki);
    
 })
 
+const numberofNews = prompt("Siz qancha yangilik ko'rdingiz?");
+
+// console.log(numberofNews);
+
+const personalNewsDB ={
+      count: numberofNews,
+      news : {},
+      actors : {},
+      genres :[],
+      privat : false,
+}
+
+// console.log(personalNewsDB);
+
+var a = prompt('Last news you have seen?');
+var b = prompt('your have given score?');
+
+personalNewsDB.news[a] = b;
+
+console.log(personalNewsDB);
