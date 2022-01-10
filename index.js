@@ -966,106 +966,106 @@ depatment: 'front-end',
 // })
 // console.log(d,f)
 
-var array=[1,2,3,4,5];
+// var array=[1,2,3,4,5];
 
-var d =[];
-var f =0 ;
-array.map((value,index)=>{
+// var d =[];
+// var f =0 ;
+// array.map((value,index)=>{
    
-   if(value % 2 ==0){
-   console.log(array[index-1] + array[index+1])
-   } 
+//    if(value % 2 ==0){
+//    console.log(array[index-1] + array[index+1])
+//    } 
  
-});
+// });
 
-const geteven=(array)=>{
-   var d = [];
-   array.map((value,index)=>{
+// const geteven=(array)=>{
+//    var d = [];
+//    array.map((value,index)=>{
    
-      if(value % 2 ==0){
-         d.push(value)
-      console.log(d,array[index-1] + array[index+1])
-      } 
+//       if(value % 2 ==0){
+//          d.push(value)
+//       console.log(d,array[index-1] + array[index+1])
+//       } 
     
-   });
-}
-geteven(array);
+//    });
+// }
+// geteven(array);
 
 
 
 
 
-var arra=['olma','uzum','nok','olma'];
-var count =0 ;
-const getfruits=(a)=>{
-      arra.map((value)=>{
-         value == a && count++
+// var arra=['olma','uzum','nok','olma'];
+// var count =0 ;
+// const getfruits=(a)=>{
+//       arra.map((value)=>{
+//          value == a && count++
          
-      })
-      console.log(count, `ta ${a} bor`);
+//       })
+//       console.log(count, `ta ${a} bor`);
 
-}
-getfruits('olma');
-
-
-var ars=['iphone','samsung','lg','kt','skt']
-var count =0;
-const getars=(act,name)=>{
-    if(act == 'delete'){
-      console.log(ars.filter((value)=>value !== name));
-    }
-    else if(act == 'save'){
-       console.log(ars.map((value)=> value == name && count++))
-       if(count >=1){
-          console.log(ars);
-       }
-       else(ars.push(name))
-       console.log(ars);
-    }
-}
-
-getars('delete', 'lg');
+// }
+// getfruits('olma');
 
 
-var arsi=['AAABBACCD'];
+// var ars=['iphone','samsung','lg','kt','skt']
+// var count =0;
+// const getars=(act,name)=>{
+//     if(act == 'delete'){
+//       console.log(ars.filter((value)=>value !== name));
+//     }
+//     else if(act == 'save'){
+//        console.log(ars.map((value)=> value == name && count++))
+//        if(count >=1){
+//           console.log(ars);
+//        }
+//        else(ars.push(name))
+//        console.log(ars);
+//     }
+// }
 
-const countLetter=(a,b,c,d)=>{
-   count = 0;sum =0; sums =0; sumss = 0;
-     l ='';
-      arsi.join('').split('').map((value)=> { 
-         value == b  && count++ ,  value == a  && sum++ , value == c && sums++ , value == d && sumss++})
-         l+= a, l += sum, l+= b, l += count, l+= c, l += sums, l += d, l += sumss
-         console.log(l);
-}
-countLetter('A','B','C','D');
+// getars('delete', 'lg');
 
 
-const findCount=(str)=>{
+// var arsi=['AAABBACCD'];
+
+// const countLetter=(a,b,c,d)=>{
+//    count = 0;sum =0; sums =0; sumss = 0;
+//      l ='';
+//       arsi.join('').split('').map((value)=> { 
+//          value == b  && count++ ,  value == a  && sum++ , value == c && sums++ , value == d && sumss++})
+//          l+= a, l += sum, l+= b, l += count, l+= c, l += sums, l += d, l += sumss
+//          console.log(l);
+// }
+// countLetter('A','B','C','D');
+
+
+// const findCount=(str)=>{
    
-   var arr = str.split('');
-   var letters =[];
-   count = 1;
+//    var arr = str.split('');
+//    var letters =[];
+//    count = 1;
 
-   for(let i = 0 ; i < arr.length; i++){
-      if(arr[i] == arr[i+1]){
-         count++;
-      }
-      // else if(arr[i]== arr [i]){
-      //    count = 1;
-      // }
-      else {
-      // count = 1 ? ' ' : count;
+//    for(let i = 0 ; i < arr.length; i++){
+//       if(arr[i] == arr[i+1]){
+//          count++;
+//       }
+//       // else if(arr[i]== arr [i]){
+//       //    count = 1;
+//       // }
+//       else {
+//       // count = 1 ? ' ' : count;
 
-         let result = `${arr[i]}${count}`;
-         letters = [...letters,result]
-         count = 1;
+//          let result = `${arr[i]}${count}`;
+//          letters = [...letters,result]
+//          count = 1;
         
-      }
+//       }
 
-   }
-    return    letters.join('')
-}
-console.log(findCount('AAABBACCD'));
+//    }
+//     return    letters.join('')
+// }
+// console.log(findCount('AAABBACCD'));
 
 
 // const getletters=(str)=>{
@@ -1081,24 +1081,29 @@ console.log(findCount('AAABBACCD'));
 // getletters('AAABBACCD');
 
 
-var obj ={
-   name: 'Shahzoda',
-   surname : 'Panjizoda',
-   job :'front-end developer'
-}
+// var obj ={
+//    name: 'Shahzoda',
+//    surname : 'Panjizoda',
+//    job :'front-end developer'
+// }
 
-obj.newKey='Xurriyatxon';
-obj.name = 'Sobir'
-console.log(Object.entries(obj));
+// obj.newKey='Xurriyatxon';
+// obj.name = 'Sobir'
+// console.log(Object.entries(obj));
 
-Object.entries(obj).map(([bir,ikki])=>{
-console.log(bir,ikki);
+// Object.entries(obj).map(([bir,ikki])=>{
+// console.log(bir,ikki);
    
-})
+// })
+
+// console.log(personalNewsDB);
+
+// var a = prompt('Oxirgi kurgan yangiligingiz?');
+// var b = prompt('Qancha baho berasiz?');
+
+// personalNewsDB.news[a] = b;
 
 const numberofNews = prompt("Siz qancha yangilik ko'rdingiz?");
-
-// console.log(numberofNews);
 
 const personalNewsDB ={
       count: numberofNews,
@@ -1107,12 +1112,38 @@ const personalNewsDB ={
       genres :[],
       privat : false,
 }
-
 // console.log(personalNewsDB);
 
-var a = prompt('Last news you have seen?');
-var b = prompt('your have given score?');
 
-personalNewsDB.news[a] = b;
+for(let i=0; i < 1; i++) {
+   var a = prompt('Oxirgi kurgan yangiligingiz?');
+   var b = prompt('Qancha baho berasiz?');
+   personalNewsDB.news[a]= b;
 
-console.log(personalNewsDB);
+   if(a !== '' &&  a !== null && a.length < 50 ){
+      console.log('Tayyor');
+   }
+   else {console.log('Error');
+   //  i--;
+}
+}
+
+console.log(personalNewsDB.news);
+
+
+for(let i = 0;  i < 1;  i++){
+   
+     if(personalNewsDB.count < 10 ){
+        console.log("Juda oz sonli yangiliklar o'qilibdi")
+     }
+     else if(personalNewsDB.count >= 10 && personalNewsDB.count <30){
+        console.log("Siz klassik tomoshabinsiz!");
+     }
+     else if(personalNewsDB.count > 30){
+        console.log("Siz yangiliklar ishqibosiz!");
+     }
+     else(
+        console.log("Xato yuz berdi!")
+     )
+} 
+console.log(`Yangiliklar soni: ${personalNewsDB.count}`);                                                  
