@@ -1040,32 +1040,32 @@ depatment: 'front-end',
 // countLetter('A','B','C','D');
 
 
-// const findCount=(str)=>{
+const findCount=(str)=>{
    
-//    var arr = str.split('');
-//    var letters =[];
-//    count = 1;
+   var arr = str.split('');
+   var letters =[];
+   count = 1;
 
-//    for(let i = 0 ; i < arr.length; i++){
-//       if(arr[i] == arr[i+1]){
-//          count++;
-//       }
-//       // else if(arr[i]== arr [i]){
-//       //    count = 1;
-//       // }
-//       else {
-//       // count = 1 ? ' ' : count;
+   for(let i = 0 ; i < arr.length; i++){
+      if(arr[i] == arr[i+1]){
+         count++;
+      }
+      // else if(arr[i]== arr [i]){
+      //    count = 1;
+      // }
+      else {
+      // count = 1 ? ' ' : count;
 
-//          let result = `${arr[i]}${count}`;
-//          letters = [...letters,result]
-//          count = 1;
+         let result = `${arr[i]}${count}`;
+         letters = [...letters,result]
+         count = 1;
         
-//       }
+      }
 
-//    }
-//     return    letters.join('')
-// }
-// console.log(findCount('AAABBACCD'));
+   }
+    return    letters.join('')
+}
+console.log(findCount('AAABBACCD'));
 
 
 // const getletters=(str)=>{
@@ -1103,47 +1103,113 @@ depatment: 'front-end',
 
 // personalNewsDB.news[a] = b;
 
-const numberofNews = prompt("Siz qancha yangilik ko'rdingiz?");
+// const numberofNews = prompt("Siz qancha yangilik ko'rdingiz?");
 
-const personalNewsDB ={
-      count: numberofNews,
-      news : {},
-      actors : {},
-      genres :[],
-      privat : false,
-}
+// const personalNewsDB ={
+//       count: numberofNews,
+//       news : {},
+//       actors : {},
+//       genres :[],
+//       privat : false,
+// }
 // console.log(personalNewsDB);
 
+// for(let i=0; i < 1; i++) {
+//    var a = prompt('Oxirgi kurgan yangiligingiz?');
+//    var b = prompt('Qancha baho berasiz?');
+//    personalNewsDB.news[a]= b;
 
-for(let i=0; i < 1; i++) {
-   var a = prompt('Oxirgi kurgan yangiligingiz?');
-   var b = prompt('Qancha baho berasiz?');
-   personalNewsDB.news[a]= b;
+//    if(a !== '' &&  a !== null && a.length < 50 ){
+//       console.log('Tayyor');
+//    }
+//    else {console.log('Error');
+//     i--;
+// }
+// }
 
-   if(a !== '' &&  a !== null && a.length < 50 ){
-      console.log('Tayyor');
-   }
-   else {console.log('Error');
-   //  i--;
-}
-}
-
-console.log(personalNewsDB.news);
+// console.log(personalNewsDB.news);
 
 
-for(let i = 0;  i < 1;  i++){
+// for(let i = 0;  i < 1;  i++){
    
-     if(personalNewsDB.count < 10 ){
-        console.log("Juda oz sonli yangiliklar o'qilibdi")
-     }
-     else if(personalNewsDB.count >= 10 && personalNewsDB.count <30){
-        console.log("Siz klassik tomoshabinsiz!");
-     }
-     else if(personalNewsDB.count > 30){
-        console.log("Siz yangiliklar ishqibosiz!");
-     }
-     else(
-        console.log("Xato yuz berdi!")
-     )
-} 
-console.log(`Yangiliklar soni: ${personalNewsDB.count}`);                                                  
+//      if(personalNewsDB.count < 10 ){
+//         console.log("Juda oz sonli yangiliklar o'qilibdi")
+//      }
+//      else if(personalNewsDB.count >= 10 && personalNewsDB.count <30){
+//         console.log("Siz klassik tomoshabinsiz!");
+//      }
+//      else if(personalNewsDB.count > 30){
+//         console.log("Siz yangiliklar ishqibosiz!");
+//      }
+//      else(
+//         console.log("Xato yuz berdi!")
+//      )
+// } 
+// console.log(`Yangiliklar soni: ${personalNewsDB.count}`);     
+
+// const showMyDB=(private)=>{
+//    if(private == 'false'){
+//       console.log(personalNewsDB);
+//    }
+// }
+// showMyDB('false');
+
+// const writeyourGenres=()=>{
+
+//  for(let i =1; i <= 3; i++){
+
+//    personalNewsDB.genres[i-1] =prompt(`Sizni sevimli janringiz? ${i}`);
+
+//  }
+// }
+// writeyourGenres( );
+
+// var car={
+//    id:1,
+//    name: 'nexia',
+//    color: 'black',
+//    speed: '200',
+// }
+
+var arr = [1,2,3,2,4,5,3,7]
+const getCompany =()=>{
+   var a = [];
+
+       arr.map((value)=>{
+         if(value > 2 && value <=5){
+            a.push(value)
+      }
+       })
+      console.log(a);
+
+      arr.fill(10,1,4);
+      console.log(arr);
+
+}
+ getCompany();
+
+
+var str ='aaabbccad'
+var obj ={};
+for(let i=0; i< str.length; i++){
+   if( obj[str[i]]){
+      if(str[i] == str[i]){
+         obj[str[i]] += 1;
+      }
+   }
+   else if(obj[str[i]] = 1){
+     
+   }
+      
+   }
+
+console.log(obj);
+
+
+var str = 'web3bsr4';
+newStr = 0;
+for(let i=0; i< str.length; i++){
+   +str[i] &&  (newStr += +str[i]);
+   
+}
+console.log(newStr);
