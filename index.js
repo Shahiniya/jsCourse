@@ -1213,3 +1213,24 @@ for(let i=0; i< str.length; i++){
    
 }
 console.log(newStr);
+
+
+var ars=[12,3,12,4,5,13];
+
+const getdublicate =(b)=>{
+     ars.filter((value,index)=>{
+
+      if(index== b.indexOf(value)){
+         console.log(value);
+      }
+
+      })
+}
+getdublicate(ars);
+
+
+const newars =[];
+ ars.filter((value,index)=>{
+   index== ars.indexOf(value) &&  console.log(value);
+    
+})
