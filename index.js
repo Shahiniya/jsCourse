@@ -1234,3 +1234,17 @@ const newars =[];
    index== ars.indexOf(value) &&  console.log(value);
     
 })
+
+
+d = [23,3,12,45,56,101]
+
+d.every((c)=>{
+     if(c > 100 )
+     {console.log(true)}
+     else(
+        console.log(false)
+     )
+   
+})
+
+console.log(d.every((b)=> b <=100 ))
