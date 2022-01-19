@@ -1130,22 +1130,22 @@ console.log(findCount('AAABBACCD'));
 // console.log(personalNewsDB.news);
 
 
-// for(let i = 0;  i < 1;  i++){
+for(let i = 0;  i < 1;  i++){
    
-//      if(personalNewsDB.count < 10 ){
-//         console.log("Juda oz sonli yangiliklar o'qilibdi")
-//      }
-//      else if(personalNewsDB.count >= 10 && personalNewsDB.count <30){
-//         console.log("Siz klassik tomoshabinsiz!");
-//      }
-//      else if(personalNewsDB.count > 30){
-//         console.log("Siz yangiliklar ishqibosiz!");
-//      }
-//      else(
-//         console.log("Xato yuz berdi!")
-//      )
-// } 
-// console.log(`Yangiliklar soni: ${personalNewsDB.count}`);     
+     if(personalNewsDB.count < 10 ){
+        console.log("Juda oz sonli yangiliklar o'qilibdi")
+     }
+     else if(personalNewsDB.count >= 10 && personalNewsDB.count <30){
+        console.log("Siz klassik tomoshabinsiz!");
+     }
+     else if(personalNewsDB.count > 30){
+        console.log("Siz yangiliklar ishqibosiz!");
+     }
+     else(
+        console.log("Xato yuz berdi!")
+     )
+} 
+console.log(`Yangiliklar soni: ${personalNewsDB.count}`);     
 
 // const showMyDB=(private)=>{
 //    if(private == 'false'){
