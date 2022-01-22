@@ -1267,12 +1267,12 @@ depatment: 'front-end',
 // var count =''; 
 // var str1 = '';
 // for(let i=0; i < str.length; i++){
-//    if(str1[i] == str[i]){
-//          str1[i] += 1
+//    if(i ){
+//          str 
 //    }
 
 // }
-// console.log(str1)
+// console.log(i)
 // }
 // getlet('string')
 
@@ -1281,8 +1281,8 @@ depatment: 'front-end',
 const getNum =(arr)=>{
    var arr1 =[];
    arr.map((value,index)=>{
-      if(arr1[index] == arr[index]){
-         arr1.push(arr[value])
+      if(+arr[index]){
+         arr1.push(value)
       }
    
    })
@@ -1291,3 +1291,32 @@ console.log(arr1)
 }
 
 getNum([1,2,'a','b'])
+
+
+const get = (a,b,c) =>{
+   let d = Math.pow(a,3);
+   let e = Math.pow(b,3);
+   let g = Math.pow(c,3);
+ console.log(d+e+g)
+
+}
+
+get(3,4,5);
+
+
+const getPar =(arr ,b) => {
+     var newsi = arr.map((value,index)=>{
+         if(arr[index] == b){
+            console.log(true);
+         }
+         else(
+            console.log(false)
+         )
+      console.log(newsi);
+
+      })
+}
+ getPar(['cat','dog','it'] , 'dog')
+
+
+
