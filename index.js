@@ -1040,32 +1040,32 @@ depatment: 'front-end',
 // countLetter('A','B','C','D');
 
 
-const findCount=(str)=>{
+// const findCount=(str)=>{
    
-   var arr = str.split('');
-   var letters =[];
-   count = 1;
+//    var arr = str.split('');
+//    var letters =[];
+//    count = 1;
 
-   for(let i = 0 ; i < arr.length; i++){
-      if(arr[i] == arr[i+1]){
-         count++;
-      }
-      // else if(arr[i]== arr [i]){
-      //    count = 1;
-      // }
-      else {
-      // count = 1 ? ' ' : count;
+//    for(let i = 0 ; i < arr.length; i++){
+//       if(arr[i] == arr[i+1]){
+//          count++;
+//       }
+//       // else if(arr[i]== arr [i]){
+//       //    count = 1;
+//       // }
+//       else {
+//       // count = 1 ? ' ' : count;
 
-         let result = `${arr[i]}${count}`;
-         letters = [...letters,result]
-         count = 1;
+//          let result = `${arr[i]}${count}`;
+//          letters = [...letters,result]
+//          count = 1;
         
-      }
+//       }
 
-   }
-    return    letters.join('')
-}
-console.log(findCount('AAABBACCD'));
+//    }
+//     return    letters.join('')
+// }
+// console.log(findCount('AAABBACCD'));
 
 
 // const getletters=(str)=>{
@@ -1130,22 +1130,22 @@ console.log(findCount('AAABBACCD'));
 // console.log(personalNewsDB.news);
 
 
-for(let i = 0;  i < 1;  i++){
+// for(let i = 0;  i < 1;  i++){
    
-     if(personalNewsDB.count < 10 ){
-        console.log("Juda oz sonli yangiliklar o'qilibdi")
-     }
-     else if(personalNewsDB.count >= 10 && personalNewsDB.count <30){
-        console.log("Siz klassik tomoshabinsiz!");
-     }
-     else if(personalNewsDB.count > 30){
-        console.log("Siz yangiliklar ishqibosiz!");
-     }
-     else(
-        console.log("Xato yuz berdi!")
-     )
-} 
-console.log(`Yangiliklar soni: ${personalNewsDB.count}`);     
+//      if(personalNewsDB.count < 10 ){
+//         console.log("Juda oz sonli yangiliklar o'qilibdi")
+//      }
+//      else if(personalNewsDB.count >= 10 && personalNewsDB.count <30){
+//         console.log("Siz klassik tomoshabinsiz!");
+//      }
+//      else if(personalNewsDB.count > 30){
+//         console.log("Siz yangiliklar ishqibosiz!");
+//      }
+//      else(
+//         console.log("Xato yuz berdi!")
+//      )
+// } 
+// console.log(`Yangiliklar soni: ${personalNewsDB.count}`);     
 
 // const showMyDB=(private)=>{
 //    if(private == 'false'){
@@ -1171,80 +1171,123 @@ console.log(`Yangiliklar soni: ${personalNewsDB.count}`);
 //    speed: '200',
 // }
 
-var arr = [1,2,3,2,4,5,3,7]
-const getCompany =()=>{
-   var a = [];
+// var arr = [1,2,3,2,4,5,3,7]
+// const getCompany =()=>{
+//    var a = [];
 
-       arr.map((value)=>{
-         if(value > 2 && value <=5){
-            a.push(value)
-      }
-       })
-      console.log(a);
+//        arr.map((value)=>{
+//          if(value > 2 && value <=5){
+//             a.push(value)
+//       }
+//        })
+//       console.log(a);
 
-      arr.fill(10,1,4);
-      console.log(arr);
+//       arr.fill(10,1,4);
+//       console.log(arr);
 
-}
- getCompany();
+// }
+//  getCompany();
 
 
-var str ='aaabbccad'
-var obj ={};
-for(let i=0; i< str.length; i++){
-   if( obj[str[i]]){
-      if(str[i] == str[i]){
-         obj[str[i]] += 1;
-      }
-   }
-   else if(obj[str[i]] = 1){
+// var str ='aaabbccad'
+// var obj ={};
+// for(let i=0; i< str.length; i++){
+//    if( obj[str[i]]){
+//       if(str[i] == str[i]){
+//          obj[str[i]] += 1;
+//       }
+//    }
+//    else if(obj[str[i]] = 1){
      
-   }
+//    }
       
-   }
+//    }
 
-console.log(obj);
+// console.log(obj);
 
 
-var str = 'web3bsr4';
-newStr = 0;
-for(let i=0; i< str.length; i++){
-   +str[i] &&  (newStr += +str[i]);
+// var str = 'web3bsr4';
+// newStr = 0;
+// for(let i=0; i< str.length; i++){
+//    +str[i] &&  (newStr += +str[i]);
    
-}
-console.log(newStr);
+// }
+// console.log(newStr);
 
 
-var ars=[12,3,12,4,5,13];
+// var ars=[12,3,12,4,5,13];
 
-const getdublicate =(b)=>{
-     ars.filter((value,index)=>{
+// const getdublicate =(b)=>{
+//      ars.filter((value,index)=>{
 
-      if(index== b.indexOf(value)){
-         console.log(value);
-      }
+//       if(index== b.indexOf(value)){
+//          console.log(value);
+//       }
 
-      })
-}
-getdublicate(ars);
+//       })
+// }
+// getdublicate(ars);
 
 
-const newars =[];
- ars.filter((value,index)=>{
-   index== ars.indexOf(value) &&  console.log(value);
+// const newars =[];
+//  ars.filter((value,index)=>{
+//    index== ars.indexOf(value) &&  console.log(value);
     
-})
+// })
 
 
-d = [23,3,12,45,56,101]
+// d = [23,3,12,45,56,101]
 
-d.every((c)=>{
-     if(c > 100 )
-     {console.log(true)}
-     else(
-        console.log(false)
-     )
+// d.every((c)=>{
+//      if(c > 100 )
+//      {console.log(true)}
+//      else(
+//         console.log(false)
+//      )
    
-})
+// })
 
-console.log(d.every((b)=> b <=100 ))
+// console.log(d.every((b)=> b <=100 ))
+
+
+
+// var dan = [19,12];
+
+// dan.every((value)=>{
+//    if(value % 5 == 0){
+//       console.log(true);
+//    }
+//    else(
+//       console.log(false)
+//    )
+// })
+
+
+// const getlet = (str)=>{
+// var count =''; 
+// var str1 = '';
+// for(let i=0; i < str.length; i++){
+//    if(str1[i] == str[i]){
+//          str1[i] += 1
+//    }
+
+// }
+// console.log(str1)
+// }
+// getlet('string')
+
+
+
+const getNum =(arr)=>{
+   var arr1 =[];
+   arr.map((value,index)=>{
+      if(arr1[index] == arr[index]){
+         arr1.push(arr[value])
+      }
+   
+   })
+console.log(arr1)
+
+}
+
+getNum([1,2,'a','b'])
